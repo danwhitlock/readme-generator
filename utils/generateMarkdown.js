@@ -23,7 +23,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  If you have any questions, reach out to me at ${emailAddress}
+  If you have any questions, reach out to me at ${data.emailAddress}
 `;
 }
 
