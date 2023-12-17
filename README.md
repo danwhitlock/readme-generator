@@ -28,3 +28,5 @@
 
   ## Questions
   If you have any questions, reach out to me at dan or open an issue on my github page dan.
+
+  ![Static Badge](https://img.shields.io/badge/any_text-you_like-blue)
