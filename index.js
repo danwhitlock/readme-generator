@@ -18,6 +18,9 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile('README.md', JSON.stringify(data), (err) => {
+        console.log('file created');
+    })
 }
 
 // function to initialize program
@@ -73,9 +76,8 @@ function init() {
     ])
     .then((data) => {
         console.log(data);
-        fs.writeFile('README.md', JSON.stringify(data), (err) => {
-            console.log('file created');
-        })
+        const fileName = "README.md";
+        writeToFile(fileName, data);
     })
 }
 

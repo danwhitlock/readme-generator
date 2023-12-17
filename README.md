@@ -1,1 +1,1 @@
-{"githubUsername":"Dan","emailAddress":"dan","projectTitle":"test","projectDescription":"test","license":"None","dependencies":"test","tests":"test","instructions":"test","contributions":"test"}
+{"githubUsername":"d","emailAddress":"d","projectTitle":"test","projectDescription":"test","license":"None","dependencies":"test","tests":"test","instructions":"test","contributions":"test"}
