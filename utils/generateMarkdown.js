@@ -6,6 +6,12 @@ function generateMarkdown(data) {
   ${data.projectDescription}
 
   ## Contents
+   - [Installation](#Installation)
+   - [Usage](#Usage)
+   - [License](#License)
+   - [Contributions](#Contributions)
+   - [Testing](#Testing)
+   - [Questions](#Questions)
 
   ## Installation
   ${data.dependencies}
@@ -23,7 +29,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  If you have any questions, reach out to me at ${data.emailAddress}
+  If you have any questions, reach out to me at ${data.emailAddress} or open an issue on my github page ${data.githubUsername}.
 `;
 }
 
