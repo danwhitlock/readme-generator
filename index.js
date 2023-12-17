@@ -22,7 +22,58 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer
+    .prompt([
+        {
+            type: 'input',
+            name: 'githubUsername',
+            message: questions[0],
+        },
+        {
+            type: 'input',
+            name: 'emailAddress',
+            message: questions[1],
+        },
+        {
+            type: 'input',
+            name: 'projectTitle',
+            message: questions[2],
+        },
+        {
+            type: 'input',
+            name: 'projectDescription',
+            message: questions[3],
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: questions[4],
+            choices: ['MIT', 'GPL', 'None'], 
+        },
+        {
+            type: 'input',
+            name: 'dependencies',
+            message: questions[5],
+        },
+        {
+            type: 'input',
+            name: 'tests',
+            message: questions[6],
+        },
+        {
+            type: 'input',
+            name: 'instructions',
+            message: questions[7],
+        },
+        {
+            type: 'input',
+            name: 'contributions',
+            message: questions[8],
+        },
+    ])
+    .then((data) => {
+        console.log(data);
+    })
 }
 
 // function call to initialize program
