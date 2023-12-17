@@ -73,6 +73,9 @@ function init() {
     ])
     .then((data) => {
         console.log(data);
+        fs.writeFile('README.md', JSON.stringify(data), (err) => {
+            console.log('file created');
+        })
     })
 }
 

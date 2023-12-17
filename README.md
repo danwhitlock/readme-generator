@@ -1,1 +1,1 @@
-# readme-generator
+{"githubUsername":"Dan","emailAddress":"dan","projectTitle":"test","projectDescription":"test","license":"None","dependencies":"test","tests":"test","instructions":"test","contributions":"test"}
