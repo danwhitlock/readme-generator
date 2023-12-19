@@ -1,7 +1,9 @@
-# test8
+# README Generator
 
   ## Description
-  test8
+  test
+
+  ![License Badge](https://img.shields.io/badge/license-MIT-orange)
 
   ## Contents
    - [Installation](#Installation)
@@ -12,21 +14,19 @@
    - [Questions](#Questions)
 
   ## Installation
-  test8
+  test
   
   ## Usage
-  test8
+  test
   
   ## License
   MIT
 
   ## Contributions
-  test8
+  test
 
   ## Testing
-  test8
+  test
 
   ## Questions
-  If you have any questions, reach out to me at dan or open an issue on my github page dan.
-
-  ![Static Badge](https://img.shields.io/badge/any_text-you_like-blue)
+  If you have any questions, reach out to me at danwhitlock@hotmail.co.uk or open an issue on my github page https://github.com/danwhitlock.

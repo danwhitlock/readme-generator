@@ -5,6 +5,8 @@ function generateMarkdown(data) {
   ## Description
   ${data.projectDescription}
 
+  ![License Badge](https://img.shields.io/badge/license-${data.license}-green)
+
   ## Contents
    - [Installation](#Installation)
    - [Usage](#Usage)
@@ -29,7 +31,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  If you have any questions, reach out to me at ${data.emailAddress} or open an issue on my github page ${data.githubUsername}.
+  If you have any questions, reach out to me at ${data.emailAddress} or open an issue on my github page: https://github.com/${data.githubUsername}.
 `;
 }
 
