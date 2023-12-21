@@ -1,9 +1,9 @@
 # README Generator
 
   ## Description
-  This program will create a professional README file from your input
+  Use this app to automatically create professional README files for your projects
 
-  ![License Badge](https://img.shields.io/badge/license-MIT-green)
+  ![License Badge](https://img.shields.io/badge/license-None-green)
 
   ## Contents
    - [Installation](#Installation)
@@ -14,16 +14,16 @@
    - [Questions](#Questions)
 
   ## Installation
-  Run npm install
+  Run npm i to install required dependencies
   
   ## Usage
-  run the file with node index.js, answer the questions and a README file will be created in this same directory 
+  Run the file in terminal and it will give you multiple questions to answer, to populate your README file.  Answer the questions and a corresponding file will be generated in the project directory.
   
   ## License
-  MIT
+  None
 
   ## Contributing
-  If you wish to contribute, open an issue and I'll take a look
+  If you wish to contribute, open an issue and I'll take a look!
 
   ## Testing
   N/A
